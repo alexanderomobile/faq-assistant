@@ -1,0 +1,162 @@
+{
+ "s-01#1": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-02#1": {
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "s-03#1": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "s-04#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "s-05#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-06#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "s-07#1": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-08#1": {
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "s-09#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-10#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "s-11#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "s-12#1": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-13#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-14#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "s-15#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "s-16#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "s-17#1": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-18#1": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "s-19#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-20#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-21#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "s-22#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "s-23#1": {
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "s-24#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "s-25#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "s-26#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "s-27#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-28#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-29#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-30#1": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "s-31#1": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-32#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ }
+}

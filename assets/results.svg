@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="632" viewBox="0 0 820 632" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <title>Отложенный набор B, 59 реплик: слепая оценка тремя судьями</title>
+  <rect width="820" height="632" rx="12" fill="#fcfcfb"/>
+  <text x="24" y="34" font-size="16" font-weight="700" fill="#0b0b0b">Отложенный набор B, 59 реплик: слепая оценка тремя судьями</text>
+  <text x="24" y="64" font-size="14" font-weight="700" fill="#0b0b0b">верный ответ, все реплики</text>
+  <line x1="230.0" y1="74" x2="230.0" y2="168" stroke="#e4e2dc" stroke-width="1"/>
+  <line x1="465.0" y1="74" x2="465.0" y2="168" stroke="#e4e2dc" stroke-width="1"/>
+  <line x1="700.0" y1="74" x2="700.0" y2="168" stroke="#e4e2dc" stroke-width="1"/>
+  <text x="220" y="89" font-size="12" fill="#52514e" text-anchor="end">код урока как есть</text>
+  <rect x="230" y="76" width="215.1" height="18" rx="4" fill="#eb6834"><title>код урока как есть: 27 из 59</title></rect>
+  <text x="453.1" y="89" font-size="12" fill="#0b0b0b">27 из 59 · 46 %</text>
+  <text x="220" y="113" font-size="12" fill="#52514e" text-anchor="end">без памяти диалога</text>
+  <rect x="230" y="100" width="334.6" height="18" rx="4" fill="#1baf7a"><title>без памяти диалога: 42 из 59</title></rect>
+  <text x="572.6" y="113" font-size="12" fill="#0b0b0b">42 из 59 · 71 %</text>
+  <text x="220" y="137" font-size="12" fill="#52514e" text-anchor="end">без переписывания уточнений</text>
+  <rect x="230" y="124" width="350.5" height="18" rx="4" fill="#eda100"><title>без переписывания уточнений: 44 из 59</title></rect>
+  <text x="588.5" y="137" font-size="12" fill="#0b0b0b">44 из 59 · 75 %</text>
+  <text x="220" y="161" font-size="12" fill="#52514e" text-anchor="end">мой помощник</text>
+  <rect x="230" y="148" width="358.5" height="18" rx="4" fill="#2a78d6"><title>мой помощник: 45 из 59</title></rect>
+  <text x="596.5" y="161" font-size="12" fill="#0b0b0b">45 из 59 · 76 %</text>
+  <text x="24" y="200" font-size="14" font-weight="700" fill="#0b0b0b">уточняющие реплики диалога: верный ответ</text>
+  <line x1="230.0" y1="210" x2="230.0" y2="304" stroke="#e4e2dc" stroke-width="1"/>
+  <line x1="465.0" y1="210" x2="465.0" y2="304" stroke="#e4e2dc" stroke-width="1"/>
+  <line x1="700.0" y1="210" x2="700.0" y2="304" stroke="#e4e2dc" stroke-width="1"/>
+  <text x="220" y="225" font-size="12" fill="#52514e" text-anchor="end">код урока как есть</text>
+  <rect x="230" y="212" width="245.2" height="18" rx="4" fill="#eb6834"><title>код урока как есть: 12 из 23</title></rect>
+  <text x="483.2" y="225" font-size="12" fill="#0b0b0b">12 из 23 · 52 %</text>
+  <text x="220" y="249" font-size="12" fill="#52514e" text-anchor="end">без памяти диалога</text>
+  <rect x="230" y="236" width="306.5" height="18" rx="4" fill="#1baf7a"><title>без памяти диалога: 15 из 23</title></rect>
+  <text x="544.5" y="249" font-size="12" fill="#0b0b0b">15 из 23 · 65 %</text>
+  <text x="220" y="273" font-size="12" fill="#52514e" text-anchor="end">без переписывания уточнений</text>
+  <rect x="230" y="260" width="367.8" height="18" rx="4" fill="#eda100"><title>без переписывания уточнений: 18 из 23</title></rect>
+  <text x="605.8" y="273" font-size="12" fill="#0b0b0b">18 из 23 · 78 %</text>
+  <text x="220" y="297" font-size="12" fill="#52514e" text-anchor="end">мой помощник</text>
+  <rect x="230" y="284" width="367.8" height="18" rx="4" fill="#2a78d6"><title>мой помощник: 18 из 23</title></rect>
+  <text x="605.8" y="297" font-size="12" fill="#0b0b0b">18 из 23 · 78 %</text>
+  <text x="24" y="336" font-size="14" font-weight="700" fill="#0b0b0b">честный отказ, когда ответа в базе нет</text>
+  <line x1="230.0" y1="346" x2="230.0" y2="440" stroke="#e4e2dc" stroke-width="1"/>
+  <line x1="465.0" y1="346" x2="465.0" y2="440" stroke="#e4e2dc" stroke-width="1"/>
+  <line x1="700.0" y1="346" x2="700.0" y2="440" stroke="#e4e2dc" stroke-width="1"/>
+  <text x="220" y="361" font-size="12" fill="#52514e" text-anchor="end">код урока как есть</text>
+  <rect x="230" y="348" width="117.5" height="18" rx="4" fill="#eb6834"><title>код урока как есть: 3 из 12</title></rect>
+  <text x="355.5" y="361" font-size="12" fill="#0b0b0b">3 из 12 · 25 %</text>
+  <text x="220" y="385" font-size="12" fill="#52514e" text-anchor="end">без памяти диалога</text>
+  <rect x="230" y="372" width="391.7" height="18" rx="4" fill="#1baf7a"><title>без памяти диалога: 10 из 12</title></rect>
+  <text x="629.7" y="385" font-size="12" fill="#0b0b0b">10 из 12 · 83 %</text>
+  <text x="220" y="409" font-size="12" fill="#52514e" text-anchor="end">без переписывания уточнений</text>
+  <rect x="230" y="396" width="430.8" height="18" rx="4" fill="#eda100"><title>без переписывания уточнений: 11 из 12</title></rect>
+  <text x="668.8" y="409" font-size="12" fill="#0b0b0b">11 из 12 · 92 %</text>
+  <text x="220" y="433" font-size="12" fill="#52514e" text-anchor="end">мой помощник</text>
+  <rect x="230" y="420" width="430.8" height="18" rx="4" fill="#2a78d6"><title>мой помощник: 11 из 12</title></rect>
+  <text x="668.8" y="433" font-size="12" fill="#0b0b0b">11 из 12 · 92 %</text>
+  <text x="24" y="472" font-size="14" font-weight="700" fill="#0b0b0b">ответы с выдумкой (меньше — лучше)</text>
+  <line x1="230.0" y1="482" x2="230.0" y2="576" stroke="#e4e2dc" stroke-width="1"/>
+  <line x1="465.0" y1="482" x2="465.0" y2="576" stroke="#e4e2dc" stroke-width="1"/>
+  <line x1="700.0" y1="482" x2="700.0" y2="576" stroke="#e4e2dc" stroke-width="1"/>
+  <text x="220" y="497" font-size="12" fill="#52514e" text-anchor="end">код урока как есть</text>
+  <rect x="230" y="484" width="143.4" height="18" rx="4" fill="#eb6834"><title>код урока как есть: 18 из 59</title></rect>
+  <text x="381.4" y="497" font-size="12" fill="#0b0b0b">18 из 59 · 31 %</text>
+  <text x="220" y="521" font-size="12" fill="#52514e" text-anchor="end">без памяти диалога</text>
+  <rect x="230" y="508" width="71.7" height="18" rx="4" fill="#1baf7a"><title>без памяти диалога: 9 из 59</title></rect>
+  <text x="309.7" y="521" font-size="12" fill="#0b0b0b">9 из 59 · 15 %</text>
+  <text x="220" y="545" font-size="12" fill="#52514e" text-anchor="end">без переписывания уточнений</text>
+  <rect x="230" y="532" width="63.7" height="18" rx="4" fill="#eda100"><title>без переписывания уточнений: 8 из 59</title></rect>
+  <text x="301.7" y="545" font-size="12" fill="#0b0b0b">8 из 59 · 14 %</text>
+  <text x="220" y="569" font-size="12" fill="#52514e" text-anchor="end">мой помощник</text>
+  <rect x="230" y="556" width="47.8" height="18" rx="4" fill="#2a78d6"><title>мой помощник: 6 из 59</title></rect>
+  <text x="285.8" y="569" font-size="12" fill="#0b0b0b">6 из 59 · 10 %</text>
+  <text x="24" y="620" font-size="11" fill="#52514e">24 вопроса и 12 диалогов с уточнениями; набор написан после доработки и прогонялся один раз. 8 ноября 2026, вопросы и судьи — агенты Claude.</text>
+</svg>

@@ -1,0 +1,146 @@
+{
+ "s-01#1": {
+  "W": "mine",
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "norewrite"
+ },
+ "s-02#1": {
+  "W": "mine",
+  "X": "lesson",
+  "Y": "norewrite",
+  "Z": "nomem"
+ },
+ "s-03#1": {
+  "W": "nomem",
+  "X": "norewrite",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-04#1": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "norewrite",
+  "Z": "mine"
+ },
+ "s-05#1": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "norewrite"
+ },
+ "s-06#1": {
+  "W": "mine",
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "norewrite"
+ },
+ "s-07#1": {
+  "W": "nomem",
+  "X": "norewrite",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-08#1": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "norewrite"
+ },
+ "s-09#1": {
+  "W": "mine",
+  "X": "lesson",
+  "Y": "norewrite",
+  "Z": "nomem"
+ },
+ "s-10#1": {
+  "W": "mine",
+  "X": "norewrite",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "s-11#1": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "norewrite"
+ },
+ "s-12#1": {
+  "W": "norewrite",
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-13#1": {
+  "W": "norewrite",
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "s-14#1": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "norewrite"
+ },
+ "s-15#1": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "norewrite",
+  "Z": "mine"
+ },
+ "s-16#1": {
+  "W": "norewrite",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-17#1": {
+  "W": "lesson",
+  "X": "norewrite",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "s-18#1": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "norewrite",
+  "Z": "mine"
+ },
+ "s-19#1": {
+  "W": "nomem",
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "norewrite"
+ },
+ "s-20#1": {
+  "W": "norewrite",
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "s-21#1": {
+  "W": "nomem",
+  "X": "lesson",
+  "Y": "norewrite",
+  "Z": "mine"
+ },
+ "s-22#1": {
+  "W": "mine",
+  "X": "nomem",
+  "Y": "norewrite",
+  "Z": "lesson"
+ },
+ "s-23#1": {
+  "W": "norewrite",
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "s-24#1": {
+  "W": "norewrite",
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ }
+}

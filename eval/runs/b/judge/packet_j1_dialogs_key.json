@@ -1,0 +1,212 @@
+{
+ "d-01#1": {
+  "W": "norewrite",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "d-01#2": {
+  "W": "lesson",
+  "X": "norewrite",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-01#3": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "norewrite"
+ },
+ "d-02#1": {
+  "W": "mine",
+  "X": "norewrite",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "d-02#2": {
+  "W": "mine",
+  "X": "lesson",
+  "Y": "norewrite",
+  "Z": "nomem"
+ },
+ "d-03#1": {
+  "W": "mine",
+  "X": "norewrite",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "d-03#2": {
+  "W": "mine",
+  "X": "nomem",
+  "Y": "norewrite",
+  "Z": "lesson"
+ },
+ "d-03#3": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "norewrite"
+ },
+ "d-04#1": {
+  "W": "norewrite",
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "d-04#2": {
+  "W": "nomem",
+  "X": "norewrite",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-04#3": {
+  "W": "nomem",
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "norewrite"
+ },
+ "d-05#1": {
+  "W": "nomem",
+  "X": "norewrite",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-05#2": {
+  "W": "nomem",
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "norewrite"
+ },
+ "d-05#3": {
+  "W": "mine",
+  "X": "norewrite",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "d-06#1": {
+  "W": "nomem",
+  "X": "mine",
+  "Y": "norewrite",
+  "Z": "lesson"
+ },
+ "d-06#2": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "norewrite"
+ },
+ "d-06#3": {
+  "W": "lesson",
+  "X": "norewrite",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "d-07#1": {
+  "W": "norewrite",
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-07#2": {
+  "W": "nomem",
+  "X": "lesson",
+  "Y": "norewrite",
+  "Z": "mine"
+ },
+ "d-07#3": {
+  "W": "norewrite",
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-08#1": {
+  "W": "mine",
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "norewrite"
+ },
+ "d-08#2": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "norewrite"
+ },
+ "d-08#3": {
+  "W": "mine",
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "norewrite"
+ },
+ "d-09#1": {
+  "W": "mine",
+  "X": "norewrite",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "d-09#2": {
+  "W": "norewrite",
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-09#3": {
+  "W": "lesson",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "norewrite"
+ },
+ "d-10#1": {
+  "W": "mine",
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "norewrite"
+ },
+ "d-10#2": {
+  "W": "nomem",
+  "X": "lesson",
+  "Y": "norewrite",
+  "Z": "mine"
+ },
+ "d-10#3": {
+  "W": "mine",
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "norewrite"
+ },
+ "d-11#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "norewrite",
+  "Z": "nomem"
+ },
+ "d-11#2": {
+  "W": "norewrite",
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "d-11#3": {
+  "W": "nomem",
+  "X": "norewrite",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-12#1": {
+  "W": "mine",
+  "X": "norewrite",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "d-12#2": {
+  "W": "mine",
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "norewrite"
+ },
+ "d-12#3": {
+  "W": "norewrite",
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ }
+}

@@ -1,0 +1,902 @@
+{
+ "judge": "j2",
+ "part": "dialogs",
+ "ratings": [
+  {
+   "item": "d-01#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Gives all three steps (describe task, free 15-min review, demo call) plus correct contacts."
+  },
+  {
+   "item": "d-01#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "All three steps and correct contacts; 'покажет решение' is a fair paraphrase of the demo."
+  },
+  {
+   "item": "d-01#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "All three steps including live demo on a call, correct contacts."
+  },
+  {
+   "item": "d-01#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "All three steps and correct contacts."
+  },
+  {
+   "item": "d-01#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Answers both parts: free and 15 minutes; contact pointer is correct."
+  },
+  {
+   "item": "d-01#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Free, 15 minutes, and what Alexander will tell after it, all per KB."
+  },
+  {
+   "item": "d-01#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Free, 15 minutes, and the review outcomes per KB."
+  },
+  {
+   "item": "d-01#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Free, 15 minutes, and the review outcomes per KB."
+  },
+  {
+   "item": "d-01#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correctly says to describe in 2-3 sentences the daily repeated work."
+  },
+  {
+   "item": "d-01#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct first-step content; the offer to help phrase it is just conversational help."
+  },
+  {
+   "item": "d-01#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct first-step content."
+  },
+  {
+   "item": "d-01#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct first-step content linked to the free review."
+  },
+  {
+   "item": "d-02#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Names Optimum Real Estate in Hurghada and all three cases."
+  },
+  {
+   "item": "d-02#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Lists all three Optimum Real Estate cases; 'качественный перевод' is only mild framing."
+  },
+  {
+   "item": "d-02#1",
+   "answer": "Y",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Says three cases but describes only two, omitting the chat-to-draft listings case."
+  },
+  {
+   "item": "d-02#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Names the agency, city and all three cases."
+  },
+  {
+   "item": "d-02#2",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Identifies case 2 (13 languages) but gives no real details and wrongly claims the KB has none."
+  },
+  {
+   "item": "d-02#2",
+   "answer": "X",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Asks what 'второй' means instead of describing the second case."
+  },
+  {
+   "item": "d-02#2",
+   "answer": "Y",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Identifies case 2 but wrongly says the KB has no details, so key facts (12 broken languages, 122 pages) are missing."
+  },
+  {
+   "item": "d-02#2",
+   "answer": "Z",
+   "correct": 0,
+   "invented": true,
+   "followup": false,
+   "note": "Does not understand the follow-up and points to a non-existent 'поддержка'."
+  },
+  {
+   "item": "d-02#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Russian, German, Arabic plus the correct note that all 13 site languages work."
+  },
+  {
+   "item": "d-02#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Russian, German, Arabic and 384 translations without failures, per KB."
+  },
+  {
+   "item": "d-02#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct languages of descriptions in the Optimum Real Estate case."
+  },
+  {
+   "item": "d-02#3",
+   "answer": "Z",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Correct languages but sends the visitor to a non-existent 'поддержка' instead of Alexander."
+  },
+  {
+   "item": "d-03#1",
+   "answer": "W",
+   "correct": 0,
+   "invented": false,
+   "followup": null,
+   "note": "Says the number is not in the materials although the KB states 8 groups and channels."
+  },
+  {
+   "item": "d-03#1",
+   "answer": "X",
+   "correct": 0,
+   "invented": false,
+   "followup": null,
+   "note": "Claims no information although the KB states 8 groups and channels."
+  },
+  {
+   "item": "d-03#1",
+   "answer": "Y",
+   "correct": 0,
+   "invented": false,
+   "followup": null,
+   "note": "Claims no information although the KB states 8 groups and channels."
+  },
+  {
+   "item": "d-03#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correctly states 8 thematic Telegram groups and channels."
+  },
+  {
+   "item": "d-03#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Explains listings become drafts with text and photos, price and district found automatically, human checks."
+  },
+  {
+   "item": "d-03#2",
+   "answer": "X",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Gives a generic overview of services instead of what is done with the listings from those groups."
+  },
+  {
+   "item": "d-03#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Accurately describes extraction of price/area/district/bedrooms, draft with photos, review in work chat, staff decides."
+  },
+  {
+   "item": "d-03#2",
+   "answer": "Z",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Generic description of all services, not what happens with the group listings."
+  },
+  {
+   "item": "d-03#3",
+   "answer": "W",
+   "correct": 0,
+   "invented": true,
+   "followup": true,
+   "note": "Says there is no info although the KB says area is filled less often, and points to a non-existent 'поддержка'."
+  },
+  {
+   "item": "d-03#3",
+   "answer": "X",
+   "correct": 0,
+   "invented": false,
+   "followup": true,
+   "note": "Claims the KB lacks the answer although it says area and bedrooms are filled less often and staff completes them."
+  },
+  {
+   "item": "d-03#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: area is found less often than price and district and is completed manually in the admin panel."
+  },
+  {
+   "item": "d-03#3",
+   "answer": "Z",
+   "correct": 0,
+   "invented": false,
+   "followup": true,
+   "note": "Says the materials have no info although the KB answers it directly."
+  },
+  {
+   "item": "d-04#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Declines booking and gives Telegram, email and site form."
+  },
+  {
+   "item": "d-04#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Declines booking and message passing, gives correct contacts."
+  },
+  {
+   "item": "d-04#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Declines booking and message passing, gives correct contacts."
+  },
+  {
+   "item": "d-04#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Declines booking and points to Telegram or the site form."
+  },
+  {
+   "item": "d-04#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Daily 10:00-20:00 Moscow time with correct contacts."
+  },
+  {
+   "item": "d-04#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Daily 10:00-20:00 Moscow time with correct contacts."
+  },
+  {
+   "item": "d-04#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Daily 10:00-20:00 Moscow time."
+  },
+  {
+   "item": "d-04#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Daily 10:00-20:00 Moscow time."
+  },
+  {
+   "item": "d-04#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: shows how a listing from a chat becomes a site draft and goes to review."
+  },
+  {
+   "item": "d-04#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Exactly the KB answer about the live demo."
+  },
+  {
+   "item": "d-04#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct demo content with a contact pointer."
+  },
+  {
+   "item": "d-04#3",
+   "answer": "Z",
+   "correct": 0,
+   "invented": false,
+   "followup": true,
+   "note": "Wrongly says the materials do not describe the demo and substitutes a vague generic description."
+  },
+  {
+   "item": "d-05#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes, Telegram bot for Optimum Real Estate in Hurghada, text/voice requests, replies in ru/en/de/ar in chat."
+  },
+  {
+   "item": "d-05#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correctly describes the Hurghada case bot handling text and voice and picking from the catalog."
+  },
+  {
+   "item": "d-05#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Confirms the bot picks apartments from text or voice in the four languages, per KB."
+  },
+  {
+   "item": "d-05#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct description, including getting a selection without waiting for a manager."
+  },
+  {
+   "item": "d-05#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "No price in materials; cost is named after the free review; correct contacts."
+  },
+  {
+   "item": "d-05#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Cost is named after the free review; no invented sum."
+  },
+  {
+   "item": "d-05#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Cost after the free 15-minute review; no invented sum."
+  },
+  {
+   "item": "d-05#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "No sum invented; Alexander names the price after a free review."
+  },
+  {
+   "item": "d-05#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Launch time is also named after the free 15-minute review; nothing invented."
+  },
+  {
+   "item": "d-05#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Timeline and cost after the free review, with the first-step instruction."
+  },
+  {
+   "item": "d-05#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Timeline after the free review; no invented deadline."
+  },
+  {
+   "item": "d-05#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "No timeline in KB, named after the free review; correct contacts."
+  },
+  {
+   "item": "d-06#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Russian, English, German and Arabic."
+  },
+  {
+   "item": "d-06#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Russian, English, German and Arabic."
+  },
+  {
+   "item": "d-06#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Russian, English, German and Arabic."
+  },
+  {
+   "item": "d-06#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Russian, English, German and Arabic."
+  },
+  {
+   "item": "d-06#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Yes, recognizes German voice in 1.5 seconds; replying in German is supported by the KB."
+  },
+  {
+   "item": "d-06#2",
+   "answer": "X",
+   "correct": 0,
+   "invented": false,
+   "followup": true,
+   "note": "Says there is no info although the KB states German voice is recognized in 1.5 s."
+  },
+  {
+   "item": "d-06#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Yes, about 1.5 seconds, per KB."
+  },
+  {
+   "item": "d-06#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct yes, without the 1.5 s figure, which the question did not require."
+  },
+  {
+   "item": "d-06#3",
+   "answer": "W",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Covers OpenAI, PII removal and logging, but omits 90-day retention/access and refers to a non-existent 'поддержка'."
+  },
+  {
+   "item": "d-06#3",
+   "answer": "X",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Says messages are logged without personal data but omits the OpenAI transfer, 90-day retention and access."
+  },
+  {
+   "item": "d-06#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "OpenAI transfer, PII removal, log on Alexander's server with anonymized conversation code; answers both parts."
+  },
+  {
+   "item": "d-06#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Logged without personal data, kept 90 days, auto-deleted, only Alexander has access; omits OpenAI but answers the saving question."
+  },
+  {
+   "item": "d-07#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "@ZCoderTest_bot, KB-based answers via neural net, anonymized log kept 90 days, open code."
+  },
+  {
+   "item": "d-07#1",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Accurate description with log fields, but ends by recommending a non-existent 'поддержка'."
+  },
+  {
+   "item": "d-07#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate: KB answers, cache, anonymized log for 90 days, open code."
+  },
+  {
+   "item": "d-07#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "@ZCoderTest_bot, KB-based answers, anonymized log 90 days, open code."
+  },
+  {
+   "item": "d-07#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "26 of 31 from KB, median 1.2 s, did not invent on 4 questions, no live clients; slightly loose phrasing."
+  },
+  {
+   "item": "d-07#2",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Accurate test figures and no live clients, but recommends a non-existent 'поддержка'."
+  },
+  {
+   "item": "d-07#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "31 questions, 26 from KB, 7 from cache, median 1.2 s, no live clients."
+  },
+  {
+   "item": "d-07#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Test figures, two fixed bottlenecks and no live clients, all per KB."
+  },
+  {
+   "item": "d-08#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Qwen3-4B with LoRA and the brand-style traits."
+  },
+  {
+   "item": "d-08#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Qwen3-4B with LoRA and the brand-style traits."
+  },
+  {
+   "item": "d-08#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Names Qwen3-4B, which answers the question; omits LoRA."
+  },
+  {
+   "item": "d-08#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Qwen3-4B with LoRA and the brand-style traits."
+  },
+  {
+   "item": "d-08#2",
+   "answer": "W",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Fails to link 'она' to the model and asks for clarification."
+  },
+  {
+   "item": "d-08#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "On Alexander's own server, including via Ollama."
+  },
+  {
+   "item": "d-08#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "On Alexander's own server, including via Ollama."
+  },
+  {
+   "item": "d-08#2",
+   "answer": "Z",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Misreads the follow-up as the site assistant and mixes it up with the listings case."
+  },
+  {
+   "item": "d-08#3",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Right that facts must come from the KB, but misstates the 1-in-3 inaccuracy as happening without facts, whereas the KB says even with them."
+  },
+  {
+   "item": "d-08#3",
+   "answer": "X",
+   "correct": 0,
+   "invented": true,
+   "followup": false,
+   "note": "Answers about the bot instead of the fine-tuned model and points to a non-existent 'поддержка'."
+  },
+  {
+   "item": "d-08#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: the model still needs KB facts and errs in roughly every third answer."
+  },
+  {
+   "item": "d-08#3",
+   "answer": "Z",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Misattributes the 1-in-3 inaccuracy to answers without facts and offers an unsupported 'fact-checking' assistant."
+  },
+  {
+   "item": "d-09#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Bottom-right button on any page of ai.optimum-ltd.com."
+  },
+  {
+   "item": "d-09#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Bottom-right button on any page of ai.optimum-ltd.com."
+  },
+  {
+   "item": "d-09#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Bottom-right button on any page of ai.optimum-ltd.com."
+  },
+  {
+   "item": "d-09#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Bottom-right button on any page of ai.optimum-ltd.com."
+  },
+  {
+   "item": "d-09#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Three last Q&A pairs, reset after 30 min or server restart; omits the button."
+  },
+  {
+   "item": "d-09#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Three last Q&A pairs, reset after 30 min or server restart; omits the button."
+  },
+  {
+   "item": "d-09#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Three last Q&A pairs correct; 'перезапуск памяти' is a garbled wording of server restart."
+  },
+  {
+   "item": "d-09#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Complete: three last Q&A pairs, 30 min, server restart, 'Новый диалог' button."
+  },
+  {
+   "item": "d-10#1",
+   "answer": "W",
+   "correct": 0,
+   "invented": false,
+   "followup": null,
+   "note": "Claims no info although the KB names Optimum Real Estate in Hurghada, Egypt."
+  },
+  {
+   "item": "d-10#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Optimum Real Estate in Hurghada, Egypt."
+  },
+  {
+   "item": "d-10#1",
+   "answer": "Y",
+   "correct": 0,
+   "invented": false,
+   "followup": null,
+   "note": "Claims no info although the KB names Optimum Real Estate in Hurghada, Egypt."
+  },
+  {
+   "item": "d-10#1",
+   "answer": "Z",
+   "correct": 0,
+   "invented": false,
+   "followup": null,
+   "note": "Claims no info although the KB names the agency and city."
+  },
+  {
+   "item": "d-10#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Says Dubai is not in the materials and points to Alexander's Telegram or the form."
+  },
+  {
+   "item": "d-10#2",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Correctly says no info but points to a non-existent 'поддержка' instead of Alexander."
+  },
+  {
+   "item": "d-10#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Says it is not in the materials and gives correct contacts."
+  },
+  {
+   "item": "d-10#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Says it is not in the KB and gives correct contacts."
+  },
+  {
+   "item": "d-10#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Savings were never measured, so no promises; offers the free review."
+  },
+  {
+   "item": "d-10#3",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Correctly says not measured, but implies the free review estimates savings, which the KB does not say."
+  },
+  {
+   "item": "d-10#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: hours saved were never measured; offers the free review."
+  },
+  {
+   "item": "d-10#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: not measured; the review gives launch time and cost; correct contacts."
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "s-01#1": {
+  "W": "nomem-v1",
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "mine-v1"
+ },
+ "s-02#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "mine-v1",
+  "Z": "nomem-v1"
+ },
+ "s-03#1": {
+  "W": "mine",
+  "X": "mine-v1",
+  "Y": "lesson",
+  "Z": "nomem-v1"
+ },
+ "s-04#1": {
+  "W": "nomem-v1",
+  "X": "lesson",
+  "Y": "mine-v1",
+  "Z": "mine"
+ },
+ "s-05#1": {
+  "W": "lesson",
+  "X": "mine-v1",
+  "Y": "nomem-v1",
+  "Z": "mine"
+ },
+ "s-06#1": {
+  "W": "lesson",
+  "X": "mine-v1",
+  "Y": "nomem-v1",
+  "Z": "mine"
+ },
+ "s-07#1": {
+  "W": "nomem-v1",
+  "X": "mine-v1",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-08#1": {
+  "W": "mine-v1",
+  "X": "nomem-v1",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-09#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "nomem-v1",
+  "Z": "mine-v1"
+ },
+ "s-10#1": {
+  "W": "lesson",
+  "X": "mine-v1",
+  "Y": "mine",
+  "Z": "nomem-v1"
+ },
+ "s-11#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "nomem-v1",
+  "Z": "mine-v1"
+ },
+ "s-12#1": {
+  "W": "lesson",
+  "X": "nomem-v1",
+  "Y": "mine",
+  "Z": "mine-v1"
+ },
+ "s-13#1": {
+  "W": "nomem-v1",
+  "X": "mine-v1",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-14#1": {
+  "W": "mine-v1",
+  "X": "mine",
+  "Y": "nomem-v1",
+  "Z": "lesson"
+ },
+ "s-15#1": {
+  "W": "mine",
+  "X": "lesson",
+  "Y": "mine-v1",
+  "Z": "nomem-v1"
+ },
+ "s-16#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "mine-v1",
+  "Z": "nomem-v1"
+ },
+ "s-17#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "mine-v1",
+  "Z": "nomem-v1"
+ },
+ "s-18#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "nomem-v1",
+  "Z": "mine-v1"
+ },
+ "s-19#1": {
+  "W": "mine",
+  "X": "mine-v1",
+  "Y": "lesson",
+  "Z": "nomem-v1"
+ },
+ "s-20#1": {
+  "W": "mine",
+  "X": "mine-v1",
+  "Y": "lesson",
+  "Z": "nomem-v1"
+ },
+ "s-21#1": {
+  "W": "lesson",
+  "X": "mine-v1",
+  "Y": "mine",
+  "Z": "nomem-v1"
+ },
+ "s-22#1": {
+  "W": "lesson",
+  "X": "nomem-v1",
+  "Y": "mine",
+  "Z": "mine-v1"
+ },
+ "s-23#1": {
+  "W": "nomem-v1",
+  "X": "mine-v1",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "s-24#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "mine-v1",
+  "Z": "nomem-v1"
+ },
+ "s-25#1": {
+  "W": "nomem-v1",
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "mine-v1"
+ },
+ "s-26#1": {
+  "W": "lesson",
+  "X": "mine",
+  "Y": "mine-v1",
+  "Z": "nomem-v1"
+ },
+ "s-27#1": {
+  "W": "nomem-v1",
+  "X": "mine",
+  "Y": "mine-v1",
+  "Z": "lesson"
+ },
+ "s-28#1": {
+  "W": "mine-v1",
+  "X": "nomem-v1",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "s-29#1": {
+  "W": "mine",
+  "X": "nomem-v1",
+  "Y": "mine-v1",
+  "Z": "lesson"
+ },
+ "s-30#1": {
+  "W": "lesson",
+  "X": "mine-v1",
+  "Y": "nomem-v1",
+  "Z": "mine"
+ },
+ "s-31#1": {
+  "W": "lesson",
+  "X": "mine-v1",
+  "Y": "nomem-v1",
+  "Z": "mine"
+ },
+ "s-32#1": {
+  "W": "mine-v1",
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem-v1"
+ }
+}

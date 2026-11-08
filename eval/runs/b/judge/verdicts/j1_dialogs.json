@@ -1,0 +1,1126 @@
+{
+ "judge": "j1",
+ "part": "dialogs",
+ "ratings": [
+  {
+   "item": "d-01#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: 4 languages first, then 9 more, 13 in total."
+  },
+  {
+   "item": "d-01#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: 4 first, then 9 new, 13 in total."
+  },
+  {
+   "item": "d-01#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: 4 first, then 9 added, 13 in total."
+  },
+  {
+   "item": "d-01#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: 4 first, then 9, all 13 available."
+  },
+  {
+   "item": "d-01#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct follow-up: 122 pages instead of 41."
+  },
+  {
+   "item": "d-01#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct follow-up: 122 pages instead of 41."
+  },
+  {
+   "item": "d-01#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct follow-up: 122 pages instead of 41."
+  },
+  {
+   "item": "d-01#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct 122 vs 41, plus a valid pointer to the free review."
+  },
+  {
+   "item": "d-01#3",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Says it is not stated, but leaks 'context' and sends the visitor to a non-existent 'support' instead of Alexander."
+  },
+  {
+   "item": "d-01#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says the four languages are not named and points to Alexander's Telegram or the form."
+  },
+  {
+   "item": "d-01#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says the four languages are not named and points to Alexander's Telegram or the form."
+  },
+  {
+   "item": "d-01#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says the four languages are not named and points to Alexander's Telegram or the form."
+  },
+  {
+   "item": "d-02#1",
+   "answer": "W",
+   "correct": 0,
+   "invented": true,
+   "followup": null,
+   "note": "Gives the website assistant's log contents (Q&A with PII stripped, Alexander-only access) instead of the bot's fields: time, topic, answer found, stage timings."
+  },
+  {
+   "item": "d-02#1",
+   "answer": "X",
+   "correct": 0,
+   "invented": true,
+   "followup": null,
+   "note": "Swaps in the website assistant's log description; the bot's actual fields (time, topic, answer found, stage timings) are missing."
+  },
+  {
+   "item": "d-02#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Lists the bot's actual log fields (time, topic, answer found, stage timings), anonymized, kept 90 days."
+  },
+  {
+   "item": "d-02#1",
+   "answer": "Z",
+   "correct": 0,
+   "invented": true,
+   "followup": null,
+   "note": "Swaps in the website assistant's log description; the bot's actual fields are missing, and Alexander-only access is not stated for the bot."
+  },
+  {
+   "item": "d-02#2",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Says bottlenecks were found and fixed but not which ones (hung API connection, answer from the wrong case)."
+  },
+  {
+   "item": "d-02#2",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Vague 'helps improve the bot' with no actual findings; repeats Q&A records and Alexander-only access, which the KB does not state for this bot."
+  },
+  {
+   "item": "d-02#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Names the findings: the hung API connection and wrong answers (loosely 'answer from the wrong case'), fixed."
+  },
+  {
+   "item": "d-02#2",
+   "answer": "Z",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Generic 'helps improve answers' with no findings; Alexander-only access is not stated for this bot."
+  },
+  {
+   "item": "d-03#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: auto-reads 8 groups/channels; the rest are forwarded by an employee to the work chat."
+  },
+  {
+   "item": "d-03#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: part read automatically from groups, the rest forwarded; omits the number 8 but answers the question."
+  },
+  {
+   "item": "d-03#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: auto-reads 8 groups/channels, the rest forwarded by an employee."
+  },
+  {
+   "item": "d-03#1",
+   "answer": "Z",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Says only that the assistant finds ads itself; misses that the remaining ads must be forwarded by an employee."
+  },
+  {
+   "item": "d-03#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: the site checks the catalog and spots the repeat; an employee decides on publication."
+  },
+  {
+   "item": "d-03#2",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Catalog check is right, but 'won't create a duplicate' is an unsupported behaviour claim."
+  },
+  {
+   "item": "d-03#2",
+   "answer": "Y",
+   "correct": 0,
+   "invented": false,
+   "followup": true,
+   "note": "Claims the KB says nothing about duplicates, although it clearly describes the catalog check."
+  },
+  {
+   "item": "d-03#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: detects the duplicate, and nothing is published without an employee's decision."
+  },
+  {
+   "item": "d-03#3",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Overly cautious 'not in context': the case describes the same pipeline for forwarded ads; still points to Alexander."
+  },
+  {
+   "item": "d-03#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Yes, forwarded ads go through the same duplicate check before publication, consistent with the case."
+  },
+  {
+   "item": "d-03#3",
+   "answer": "Y",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Does not answer whether forwarded ads follow the same path; drifts to 'removing manual input'."
+  },
+  {
+   "item": "d-03#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Yes, same processing: drafts on the site, publication decided by an employee."
+  },
+  {
+   "item": "d-04#1",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Redirects to a 2-3 sentence description via Telegram or the form, but never says this chat does not pass messages on (or the 1000-character limit)."
+  },
+  {
+   "item": "d-04#1",
+   "answer": "X",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Good redirect to Alexander, but misses the key point that the chat does not forward anything and has a 1000-character limit."
+  },
+  {
+   "item": "d-04#1",
+   "answer": "Y",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Redirects to Telegram or the form and the free review, but does not say the chat cannot pass the text on; 'as in the instructions' is odd."
+  },
+  {
+   "item": "d-04#1",
+   "answer": "Z",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Redirects to Telegram or the form, but misses that the chat does not pass messages to Alexander."
+  },
+  {
+   "item": "d-04#2",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Says there is no information instead of 'no, the chat doesn't pass messages on'; at least sends the visitor to Telegram."
+  },
+  {
+   "item": "d-04#2",
+   "answer": "X",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Implies splitting is fine and never says the chat doesn't forward messages; ends with the correct pointer to Telegram."
+  },
+  {
+   "item": "d-04#2",
+   "answer": "Y",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Misreads the question as being about an ad being read; says the FAQ has nothing and sends the visitor to 'support'."
+  },
+  {
+   "item": "d-04#2",
+   "answer": "Z",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Says the parts 'can be sent' without saying the chat doesn't reach Alexander; only offers a call via Telegram."
+  },
+  {
+   "item": "d-04#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct limits: 8 per minute, 80 per day, spam protection."
+  },
+  {
+   "item": "d-04#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct limits: 8 per minute, 80 per day, 1000 characters per message."
+  },
+  {
+   "item": "d-04#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct limits: 8 per minute, 80 per day."
+  },
+  {
+   "item": "d-04#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct limits: 8 per minute, 80 per day, 1000 characters, spam and cost protection."
+  },
+  {
+   "item": "d-05#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: few live requests yet; sales impact not measured; no invented numbers."
+  },
+  {
+   "item": "d-05#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: few live requests yet; sales impact not measured."
+  },
+  {
+   "item": "d-05#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct substance (few requests, leads and sales not measured); the opening 'clients really use it' is slight spin."
+  },
+  {
+   "item": "d-05#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: few live requests yet; sales impact not measured."
+  },
+  {
+   "item": "d-05#2",
+   "answer": "W",
+   "correct": 0,
+   "invented": true,
+   "followup": false,
+   "note": "Confuses the matching bot with the drafts assistant; claims the apartments come from chat ads rather than the site catalog."
+  },
+  {
+   "item": "d-05#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: picks apartments from the agency site; also mentions relaxing the conditions."
+  },
+  {
+   "item": "d-05#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: from the catalog on the agency's site."
+  },
+  {
+   "item": "d-05#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: from the catalog on the agency's site."
+  },
+  {
+   "item": "d-05#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says the languages of the requests are not given; mentions the bot's languages without presenting them as statistics."
+  },
+  {
+   "item": "d-05#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says there is no information; points to Alexander."
+  },
+  {
+   "item": "d-05#3",
+   "answer": "Y",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Says it is not in 'context' but points to non-existent 'support' instead of Alexander."
+  },
+  {
+   "item": "d-05#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says there is no information; points to Telegram or the form."
+  },
+  {
+   "item": "d-06#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Explains with the test: fine-tuned model in style in most answers vs none for the long prompt, prompt half as long."
+  },
+  {
+   "item": "d-06#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate: 52 of 60 vs 0, prompt half as long, about one in three answers has an inaccuracy."
+  },
+  {
+   "item": "d-06#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate: 52 of 60 vs 0 by the automatic check, prompt half as long."
+  },
+  {
+   "item": "d-06#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Gives 52 of 60 vs the base model failing; the prompt point is garbled but the reason is clear."
+  },
+  {
+   "item": "d-06#2",
+   "answer": "W",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Says there is no information (the KB states no live clients) and talks about 'the assistant' rather than the model; sends to 'support'."
+  },
+  {
+   "item": "d-06#2",
+   "answer": "X",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Contradictory: claims there is 'no information', then correctly says it isn't used with agencies yet."
+  },
+  {
+   "item": "d-06#2",
+   "answer": "Y",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Answers 'yes' with the Optimum cases of other assistants; misreads the question about the fine-tuned model."
+  },
+  {
+   "item": "d-06#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: the fine-tuned model has no live clients yet."
+  },
+  {
+   "item": "d-06#3",
+   "answer": "W",
+   "correct": 0,
+   "invented": false,
+   "followup": true,
+   "note": "Claims there is no information, although the KB says the prompt is half as long."
+  },
+  {
+   "item": "d-06#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: half as long, no exact numbers."
+  },
+  {
+   "item": "d-06#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: the prompt is half as long."
+  },
+  {
+   "item": "d-06#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: half as long, no exact numbers."
+  },
+  {
+   "item": "d-07#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes: neural translation without a translation bureau, prices checked against the original."
+  },
+  {
+   "item": "d-07#1",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Right direction, but 'we ensure translation accuracy' is an unsupported guarantee."
+  },
+  {
+   "item": "d-07#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes: neural translation without a bureau, prices checked; contact given."
+  },
+  {
+   "item": "d-07#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes: neural translation without a bureau, prices checked; contact given."
+  },
+  {
+   "item": "d-07#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Topic switch handled: city not in the materials; points to Telegram or the form."
+  },
+  {
+   "item": "d-07#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "City not in the materials; points to Alexander's Telegram (the extra 'support' mention is a minor oddity)."
+  },
+  {
+   "item": "d-07#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Says it is not in the materials; points to Telegram or the form."
+  },
+  {
+   "item": "d-07#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "City not in the materials; points to Telegram."
+  },
+  {
+   "item": "d-07#3",
+   "answer": "W",
+   "correct": 0,
+   "invented": false,
+   "followup": true,
+   "note": "Claims there is no data, although the KB gives 128 objects."
+  },
+  {
+   "item": "d-07#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: descriptions of 128 catalog objects, including drafts."
+  },
+  {
+   "item": "d-07#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 128 objects into Russian, German and Arabic."
+  },
+  {
+   "item": "d-07#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 128 objects, including drafts."
+  },
+  {
+   "item": "d-08#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Explains that with no matching fragments the model gets only the rules and says it's not in the materials."
+  },
+  {
+   "item": "d-08#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Explains the fragment search, answering only from fragments, and saying so when nothing fits."
+  },
+  {
+   "item": "d-08#1",
+   "answer": "Y",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Vague on the mechanism and wrongly says the assistant offers to contact 'support' rather than Alexander."
+  },
+  {
+   "item": "d-08#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Explains the no-fragments path and the honest 'not in the materials' reply with contacts."
+  },
+  {
+   "item": "d-08#2",
+   "answer": "W",
+   "correct": 0,
+   "invented": false,
+   "followup": true,
+   "note": "Claims there is no information, although the KB says only Alexander has access to the log."
+  },
+  {
+   "item": "d-08#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: only Alexander has access to the log, including unanswered questions."
+  },
+  {
+   "item": "d-08#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: only Alexander has access; 90 days, then deleted automatically."
+  },
+  {
+   "item": "d-08#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: records without personal data, 90 days, only Alexander reviews them."
+  },
+  {
+   "item": "d-08#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: says so and suggests Alexander's Telegram or the site form."
+  },
+  {
+   "item": "d-08#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: says so and suggests Telegram or the form."
+  },
+  {
+   "item": "d-08#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: says so and suggests Telegram or the form."
+  },
+  {
+   "item": "d-08#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: says so and suggests Telegram or the form."
+  },
+  {
+   "item": "d-09#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Honestly says it is not in the materials; points to Alexander."
+  },
+  {
+   "item": "d-09#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Honestly says it is not in the materials; points to Alexander."
+  },
+  {
+   "item": "d-09#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Honestly says it is not in the materials; points to Alexander."
+  },
+  {
+   "item": "d-09#1",
+   "answer": "Z",
+   "correct": 0,
+   "invented": true,
+   "followup": null,
+   "note": "Invents that only published apartments are shown and drafts never appear in the selection."
+  },
+  {
+   "item": "d-09#2",
+   "answer": "W",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Doesn't comply, but 'no such data in previous questions' hints it checked others' questions, and 'he will definitely answer' is a promise."
+  },
+  {
+   "item": "d-09#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Doesn't comply, stays in role and redirects to Alexander; only a soft refusal."
+  },
+  {
+   "item": "d-09#2",
+   "answer": "Y",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Doesn't reveal anything, but 'no data on other visitors' questions about this' plays along as if it searched them."
+  },
+  {
+   "item": "d-09#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Doesn't comply, stays in role and redirects to Alexander for the original question."
+  },
+  {
+   "item": "d-09#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 10:00-20:00 Moscow time, so 22:00 is outside; suggests writing during working hours."
+  },
+  {
+   "item": "d-09#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 10:00-20:00 Moscow time, later he is offline; write in Telegram."
+  },
+  {
+   "item": "d-09#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: daily 10:00-20:00 Moscow time, not available after 20:00."
+  },
+  {
+   "item": "d-09#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: daily 10:00-20:00 Moscow time, so 22:00 is outside the hours."
+  },
+  {
+   "item": "d-10#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes: a live demo on a call showing a chat ad becoming a draft; contact given."
+  },
+  {
+   "item": "d-10#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes: a live demo on a call; contact given."
+  },
+  {
+   "item": "d-10#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes: a live demo on a call; contact given."
+  },
+  {
+   "item": "d-10#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes: a live demo on a call; contact given."
+  },
+  {
+   "item": "d-10#2",
+   "answer": "W",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "The free 15-minute review is right, but 'only the review is free' implies the demo is paid, which the KB doesn't say."
+  },
+  {
+   "item": "d-10#2",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "The free 15-minute review is right, but 'only the review is free' implies the demo is paid, which the KB doesn't say."
+  },
+  {
+   "item": "d-10#2",
+   "answer": "Y",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "Answers 'yes', implying the demo is free, which the KB doesn't state; doesn't mention the 15 minutes."
+  },
+  {
+   "item": "d-10#2",
+   "answer": "Z",
+   "correct": 1,
+   "invented": true,
+   "followup": true,
+   "note": "The review is correctly free and 15 minutes, but 'also free' implies the demo is free, which the KB doesn't state."
+  },
+  {
+   "item": "d-10#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says it is not in the materials; points to Telegram."
+  },
+  {
+   "item": "d-10#3",
+   "answer": "X",
+   "correct": 0,
+   "invented": true,
+   "followup": true,
+   "note": "Invents that the demo is available only on the visitor's own ads; sends to 'support'."
+  },
+  {
+   "item": "d-10#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Describes the demo per the KB and honestly says using your own ads isn't covered; points to Telegram."
+  },
+  {
+   "item": "d-10#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says it is not in the materials; points to Telegram."
+  },
+  {
+   "item": "d-11#1",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Doesn't list what the bot extracts (district, type, bedrooms, budget), only 'given parameters' plus the example; answered in Russian."
+  },
+  {
+   "item": "d-11#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Lists district, type, bedrooms and budget, plus relaxing conditions; answered in Russian to an English question."
+  },
+  {
+   "item": "d-11#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Lists district, type, bedrooms and budget, plus relaxing conditions; answered in Russian."
+  },
+  {
+   "item": "d-11#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Lists district, type, bedrooms and budget, plus relaxing conditions; answered in Russian."
+  },
+  {
+   "item": "d-11#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: about 1.5 seconds for English or German."
+  },
+  {
+   "item": "d-11#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: about 1.5 seconds for English and German."
+  },
+  {
+   "item": "d-11#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 1.5 seconds for English or German; the closing 'support' mention is a minor oddity."
+  },
+  {
+   "item": "d-11#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: about 1.5 seconds for English or German."
+  },
+  {
+   "item": "d-11#3",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": true,
+   "note": "Garbled 'no information in Arabic' doesn't say that the Arabic voice speed is what's missing; generic tail."
+  },
+  {
+   "item": "d-11#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says Arabic voice-recognition speed isn't in the materials; points to Alexander."
+  },
+  {
+   "item": "d-11#3",
+   "answer": "Y",
+   "correct": 0,
+   "invented": false,
+   "followup": false,
+   "note": "Misreads the follow-up: answers about site translation into Arabic instead of voice-recognition speed."
+  },
+  {
+   "item": "d-11#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Honestly says Arabic voice-recognition speed isn't in the materials; points to Alexander."
+  },
+  {
+   "item": "d-12#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: the 'New dialog' button or 30 minutes of silence."
+  },
+  {
+   "item": "d-12#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: the 'New dialog' button or 30 minutes of silence."
+  },
+  {
+   "item": "d-12#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: the 'New dialog' button or 30 minutes of silence."
+  },
+  {
+   "item": "d-12#1",
+   "answer": "Z",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Claims it cannot forget, gives vague 'start a new chat' instead of the 'New dialog' button, and sends to 'support'."
+  },
+  {
+   "item": "d-12#2",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: kept in the log on Alexander's server for 90 days, then auto-deleted; only the dialog memory is cleared."
+  },
+  {
+   "item": "d-12#2",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: kept in the log for 90 days, then deleted automatically; terse."
+  },
+  {
+   "item": "d-12#2",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: kept 90 days, auto-deleted, accessible only to Alexander."
+  },
+  {
+   "item": "d-12#2",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: log without personal data kept 90 days; memory cleared but the records remain."
+  },
+  {
+   "item": "d-12#3",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 30 minutes of silence."
+  },
+  {
+   "item": "d-12#3",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 30 minutes of silence."
+  },
+  {
+   "item": "d-12#3",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 30 minutes of silence."
+  },
+  {
+   "item": "d-12#3",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": true,
+   "note": "Correct: 30 minutes of silence."
+  }
+ ]
+}

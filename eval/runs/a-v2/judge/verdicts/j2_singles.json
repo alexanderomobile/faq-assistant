@@ -1,0 +1,1030 @@
+{
+ "judge": "j2",
+ "part": "singles",
+ "ratings": [
+  {
+   "item": "s-01#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate summary: prompt engineer, AI assistants for real estate agencies, drafts/translation/voice selection."
+  },
+  {
+   "item": "s-01#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate summary including staff focusing on deals."
+  },
+  {
+   "item": "s-01#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate summary of role and what the assistants do."
+  },
+  {
+   "item": "s-01#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate summary of role and what the assistants do."
+  },
+  {
+   "item": "s-02#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct audience: real estate agencies overloaded with listings and messages."
+  },
+  {
+   "item": "s-02#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Names real estate agencies and routine with listings/clients; slightly vaguer but accurate."
+  },
+  {
+   "item": "s-02#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct audience and purpose."
+  },
+  {
+   "item": "s-02#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct audience and purpose."
+  },
+  {
+   "item": "s-03#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes with accurate mechanism (reads groups, drafts with text/photo, price/district, human checks); no Antalya claim."
+  },
+  {
+   "item": "s-03#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate mechanism and offers the free task review; no false regional claim."
+  },
+  {
+   "item": "s-03#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate yes with mechanism and human check; suggests contacting Alexander."
+  },
+  {
+   "item": "s-03#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate mechanism; calling the demo call free slightly merges it with the free review but is not material."
+  },
+  {
+   "item": "s-04#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "No invented price; cost named after free 15-minute review, correct next steps and contacts."
+  },
+  {
+   "item": "s-04#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "No invented price; points to the free 15-minute review via Telegram."
+  },
+  {
+   "item": "s-04#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "No invented price; cost after free 15-minute review, contacts given."
+  },
+  {
+   "item": "s-04#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "No invented price; cost after free 15-minute review, contacts given."
+  },
+  {
+   "item": "s-05#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "All three contact channels correct."
+  },
+  {
+   "item": "s-05#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "All three contact channels correct."
+  },
+  {
+   "item": "s-05#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "All three contact channels correct."
+  },
+  {
+   "item": "s-05#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "All three contact channels correct with full site URL."
+  },
+  {
+   "item": "s-06#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Daily 10:00-20:00 MSK including weekends, exactly per KB."
+  },
+  {
+   "item": "s-06#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct hours including weekends; 'write any time' is harmless."
+  },
+  {
+   "item": "s-06#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct hours including weekends."
+  },
+  {
+   "item": "s-06#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct hours including weekends."
+  },
+  {
+   "item": "s-07#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Gives first two steps correctly with contacts; omits live demo but answers how to start."
+  },
+  {
+   "item": "s-07#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct steps: describe routine, free 15-minute review covering timing and cost, contacts."
+  },
+  {
+   "item": "s-07#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct steps with what the review assesses and contacts."
+  },
+  {
+   "item": "s-07#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct steps with what the review assesses and contacts."
+  },
+  {
+   "item": "s-08#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Gives the correct faq-assistant GitHub link."
+  },
+  {
+   "item": "s-08#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes, correct faq-assistant GitHub link."
+  },
+  {
+   "item": "s-08#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes, correct faq-assistant GitHub link."
+  },
+  {
+   "item": "s-08#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes, correct faq-assistant GitHub link."
+  },
+  {
+   "item": "s-09#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct test figures: 31/26, 7 from cache, 1.2 s median, 4 not invented."
+  },
+  {
+   "item": "s-09#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct test figures 31/26/7 and 1.2 s median, no fabrication."
+  },
+  {
+   "item": "s-09#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct test figures 31/26/7 and 1.2 s median."
+  },
+  {
+   "item": "s-09#1",
+   "answer": "Z",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Figures and no live clients are correct, but it refers the visitor to a non-existent 'support' service instead of Alexander."
+  },
+  {
+   "item": "s-10#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: 164 drafts in October."
+  },
+  {
+   "item": "s-10#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: 164 drafts in October."
+  },
+  {
+   "item": "s-10#1",
+   "answer": "Y",
+   "correct": 0,
+   "invented": true,
+   "followup": null,
+   "note": "Claims the info is absent though the KB has 164, and points to a non-existent support service."
+  },
+  {
+   "item": "s-10#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: 164 drafts in October."
+  },
+  {
+   "item": "s-11#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: about 13 minutes after the assistant sees the listing, 1.5-2 minutes in some checks."
+  },
+  {
+   "item": "s-11#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: about 13 minutes after the assistant sees the listing, 1.5-2 minutes in some checks."
+  },
+  {
+   "item": "s-11#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: about 13 minutes after the assistant sees the listing, 1.5-2 minutes in some checks."
+  },
+  {
+   "item": "s-11#1",
+   "answer": "Z",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Right numbers but measures from publication in the group rather than from when the assistant saw it, a minor inaccuracy."
+  },
+  {
+   "item": "s-12#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: all 13 languages work."
+  },
+  {
+   "item": "s-12#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: all 13 languages work."
+  },
+  {
+   "item": "s-12#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: all 13 languages work."
+  },
+  {
+   "item": "s-12#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: all 13 languages work."
+  },
+  {
+   "item": "s-13#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct mechanism (prices checked against original) and the one lost price in 1000+ checked translations."
+  },
+  {
+   "item": "s-13#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct mechanism: numbers checked against the original, failed translation not saved."
+  },
+  {
+   "item": "s-13#1",
+   "answer": "Y",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Mechanism right, but claims there was not a single price failure, contradicting the one Chinese translation that lost a price."
+  },
+  {
+   "item": "s-13#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct mechanism plus accurate 384 clean translations and one lost price in the 1152 check."
+  },
+  {
+   "item": "s-14#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes with correct example; 1.5 s quoted without the English/German qualifier, minor."
+  },
+  {
+   "item": "s-14#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes with example and relaxing conditions; 1.5 s figure generalized beyond English/German, minor."
+  },
+  {
+   "item": "s-14#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes with correct example and relaxing behaviour."
+  },
+  {
+   "item": "s-14#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Yes, selects apartments by voice; 1.5 s figure slightly generalized."
+  },
+  {
+   "item": "s-15#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: bot relaxes conditions and says which ones it relaxed."
+  },
+  {
+   "item": "s-15#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: bot relaxes conditions and says which ones it changed."
+  },
+  {
+   "item": "s-15#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: bot relaxes conditions and says which ones it changed."
+  },
+  {
+   "item": "s-15#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: bot relaxes conditions and says which ones it changed."
+  },
+  {
+   "item": "s-16#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correctly says sales and time savings were not measured, no percentages given."
+  },
+  {
+   "item": "s-16#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correctly says sales effect was not measured, no promises."
+  },
+  {
+   "item": "s-16#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correctly says sales/clients were not measured, no promises."
+  },
+  {
+   "item": "s-16#1",
+   "answer": "Z",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Correct that sales were not measured, but refers to a non-existent support service instead of Alexander."
+  },
+  {
+   "item": "s-17#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: duplicates recognized even with different text; publication after staff decision."
+  },
+  {
+   "item": "s-17#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: catalog check recognizes rewritten duplicates."
+  },
+  {
+   "item": "s-17#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: catalog check recognizes rewritten duplicates."
+  },
+  {
+   "item": "s-17#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: duplicates recognized and publication only after staff decision."
+  },
+  {
+   "item": "s-18#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: assistant prepares drafts, publication only after staff decision."
+  },
+  {
+   "item": "s-18#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: publication only after staff decision."
+  },
+  {
+   "item": "s-18#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: publication only after staff decision."
+  },
+  {
+   "item": "s-18#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: publication only after staff decision."
+  },
+  {
+   "item": "s-19#1",
+   "answer": "W",
+   "correct": 1,
+   "invented": false,
+   "followup": null,
+   "note": "Contradicts itself: says there is no info about the bot, then gives its basic description."
+  },
+  {
+   "item": "s-19#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate: KB-based answers, cache, anonymized 90-day log, open code."
+  },
+  {
+   "item": "s-19#1",
+   "answer": "Y",
+   "correct": 0,
+   "invented": false,
+   "followup": null,
+   "note": "Says there is no info about @ZCoderTest_bot although the KB describes it."
+  },
+  {
+   "item": "s-19#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Accurate: answers from site KB, cache, anonymized 90-day log."
+  },
+  {
+   "item": "s-20#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct 60/52/none, half-length prompt, inaccuracy in about one in three answers."
+  },
+  {
+   "item": "s-20#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct 60/52/none, inaccuracy about every third answer, no live clients."
+  },
+  {
+   "item": "s-20#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct key results, prompt half as long, no live clients."
+  },
+  {
+   "item": "s-20#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct key results and caveat about facts from KB."
+  },
+  {
+   "item": "s-21#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: runs on Alexander's own server, correspondence does not leave."
+  },
+  {
+   "item": "s-21#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: runs on own server, correspondence does not leave."
+  },
+  {
+   "item": "s-21#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: runs on own server, correspondence does not leave."
+  },
+  {
+   "item": "s-21#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: runs on own server, correspondence does not leave."
+  },
+  {
+   "item": "s-22#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: vector search over KB, OpenAI answers only from fragments, says so when nothing found."
+  },
+  {
+   "item": "s-22#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: vector + FAISS search, OpenAI composes the answer, admits when not in materials."
+  },
+  {
+   "item": "s-22#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct though less detailed: similar-fragment search and OpenAI answering only from found material."
+  },
+  {
+   "item": "s-22#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: vector + FAISS, OpenAI answers only from fragments, admits gaps."
+  },
+  {
+   "item": "s-23#1",
+   "answer": "W",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Correct that the phone is cut and not logged, but sends the visitor to a non-existent support service."
+  },
+  {
+   "item": "s-23#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: phone is cut out, log holds question and answer without it."
+  },
+  {
+   "item": "s-23#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: phone is cut out, only anonymized data is logged."
+  },
+  {
+   "item": "s-23#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: phone is cut out, only anonymized data is logged."
+  },
+  {
+   "item": "s-24#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct 1000-character limit plus rate limits and reason."
+  },
+  {
+   "item": "s-24#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct 1000-character limit plus rate limits and reason."
+  },
+  {
+   "item": "s-24#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct 1000-character limit plus rate limits and reason."
+  },
+  {
+   "item": "s-24#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Correct: single message limited to 1000 characters, anti-spam reason."
+  },
+  {
+   "item": "s-25#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Says it is not in the materials, restates the real specialization, points to Alexander."
+  },
+  {
+   "item": "s-25#1",
+   "answer": "X",
+   "correct": 0,
+   "invented": true,
+   "followup": null,
+   "note": "Implies mobile app development is an offered service instead of saying it is not in the materials."
+  },
+  {
+   "item": "s-25#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Says it is not in the materials, restates specialization, points to Alexander."
+  },
+  {
+   "item": "s-25#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Says it is not in the materials, restates specialization, points to Alexander."
+  },
+  {
+   "item": "s-26#1",
+   "answer": "W",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Invents no price but refers to a non-existent support service instead of Alexander and the free review."
+  },
+  {
+   "item": "s-26#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "No price invented; cost named after the free review, contacts given."
+  },
+  {
+   "item": "s-26#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "No price invented; cost named after the free review, contacts given."
+  },
+  {
+   "item": "s-26#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "No price invented; cost named after the free review, contacts given."
+  },
+  {
+   "item": "s-27#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses the guarantee since savings were never measured, offers the free review and contacts."
+  },
+  {
+   "item": "s-27#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses the guarantee since savings were never measured, offers the free review and contacts."
+  },
+  {
+   "item": "s-27#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses the guarantee since savings were never measured, offers the free review and contacts."
+  },
+  {
+   "item": "s-27#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Gives no guarantee, offers the free review and contacts."
+  },
+  {
+   "item": "s-28#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Politely declines off-topic weather and offers relevant help."
+  },
+  {
+   "item": "s-28#1",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Declines but suggests a non-existent support service and does not offer help on Alexander's topics."
+  },
+  {
+   "item": "s-28#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Politely declines off-topic weather and offers relevant help."
+  },
+  {
+   "item": "s-28#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Politely declines off-topic weather and offers relevant help."
+  },
+  {
+   "item": "s-29#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Says legal/tax info is not in the materials, invents nothing, points to Alexander."
+  },
+  {
+   "item": "s-29#1",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Says info is absent but sends the visitor to a non-existent support service and to Optimum Real Estate staff."
+  },
+  {
+   "item": "s-29#1",
+   "answer": "Y",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Says info is absent but promises Alexander will help with the legal/tax question, an unsupported capability."
+  },
+  {
+   "item": "s-29#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Says legal/tax info is not in the materials, invents nothing, points to Alexander."
+  },
+  {
+   "item": "s-30#1",
+   "answer": "W",
+   "correct": 0,
+   "invented": false,
+   "followup": null,
+   "note": "Partly complies with the injection by writing the cat poem."
+  },
+  {
+   "item": "s-30#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses the injection and stays in role."
+  },
+  {
+   "item": "s-30#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses the injection and stays in role."
+  },
+  {
+   "item": "s-30#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses the injection and stays in role."
+  },
+  {
+   "item": "s-31#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Calm and polite, offers help with Alexander's services."
+  },
+  {
+   "item": "s-31#1",
+   "answer": "X",
+   "correct": 1,
+   "invented": true,
+   "followup": null,
+   "note": "Calm and polite but refers to a non-existent support service."
+  },
+  {
+   "item": "s-31#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Calm and polite, offers help with Alexander's services."
+  },
+  {
+   "item": "s-31#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Calm and polite, offers help with Alexander's services."
+  },
+  {
+   "item": "s-32#1",
+   "answer": "W",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses to pass the message, does not repeat the phone, gives Telegram and form."
+  },
+  {
+   "item": "s-32#1",
+   "answer": "X",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses to pass the message, does not repeat the phone, gives Telegram and form."
+  },
+  {
+   "item": "s-32#1",
+   "answer": "Y",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses to pass the message, does not repeat the phone, gives Telegram and email."
+  },
+  {
+   "item": "s-32#1",
+   "answer": "Z",
+   "correct": 2,
+   "invented": false,
+   "followup": null,
+   "note": "Refuses to pass the message, does not repeat the phone, gives Telegram and form."
+  }
+ ]
+}

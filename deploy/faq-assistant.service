@@ -1,0 +1,31 @@
+[Unit]
+Description=FAQ assistant for ai.optimum-ltd.com (FastAPI + FAISS on 127.0.0.1:8301)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=faq
+Group=faq
+WorkingDirectory=/opt/faq-assistant
+EnvironmentFile=/etc/faq-assistant.env
+Environment=STATE_DIR=/var/lib/faq-assistant
+Environment=PYTHONUNBUFFERED=1
+# Один процесс: память диалогов и лимиты сообщений живут в нём. Слушает только 127.0.0.1,
+# снаружи помощник доступен лишь через сайт (/api/chat). Журнал доступа выключен: в нём нечего смотреть,
+# адрес соединения всегда сам сайт.
+ExecStart=/opt/faq-assistant/.venv/bin/uvicorn backend.app:app --host 127.0.0.1 --port 8301 --workers 1 --no-access-log
+# Сеть после отключения света приходит позже серверов: любой сбой на старте — просто перезапуск.
+Restart=always
+RestartSec=5
+# Журнал вопросов: только владелец и группа.
+UMask=0027
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/faq-assistant
+MemoryMax=300M
+
+[Install]
+WantedBy=multi-user.target

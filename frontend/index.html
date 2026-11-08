@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ-ассистент · демо-страница</title>
+  <link rel="stylesheet" href="widget.css">
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #1c2533; background: #f6f1e9; }
+    main { max-width: 720px; margin: 0 auto; padding: 56px 20px; }
+    h1 { color: #0f1e33; }
+    code { background: #fff; padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>FAQ-ассистент: демо-страница</h1>
+    <p>Страница из урока: только оболочка для виджета в правом нижнем углу. Вся логика — в backend.</p>
+    <p>Запуск: <code>uvicorn backend.app:app --host 127.0.0.1 --port 8301</code> с <code>ALLOWED_ORIGINS=http://127.0.0.1:8080</code>,
+      затем <code>python -m http.server 8080 --directory frontend</code> и откройте <code>http://127.0.0.1:8080</code>.</p>
+    <p>На сайте <a href="https://ai.optimum-ltd.com">ai.optimum-ltd.com</a> тот же виджет ходит не напрямую, а через сам сайт (<code>/api/chat</code>).</p>
+  </main>
+
+  <div class="faq-chat" id="faq-chat" data-endpoint="http://127.0.0.1:8301/chat" data-reset="http://127.0.0.1:8301/reset"
+       data-greeting="Здравствуйте. Я помощник Александра: отвечаю на вопросы об услугах, кейсах и порядке работы по материалам сайта. Что вас интересует?">
+    <div class="faq-chat__panel" data-chat-panel hidden role="dialog" aria-label="Чат с помощником Александра">
+      <div class="faq-chat__head">
+        <div>
+          <div class="faq-chat__title">Помощник Александра</div>
+          <div class="faq-chat__subtitle">Отвечает по материалам сайта</div>
+        </div>
+        <div class="faq-chat__head-actions">
+          <button type="button" class="faq-chat__icon-btn" data-chat-new>Новый диалог</button>
+          <button type="button" class="faq-chat__icon-btn" data-chat-close aria-label="Закрыть чат">✕</button>
+        </div>
+      </div>
+      <div class="faq-chat__log" data-chat-log role="log" aria-live="polite"></div>
+      <form class="faq-chat__form" data-chat-form>
+        <label class="faq-chat__sr" for="faq-chat-input">Ваш вопрос</label>
+        <textarea id="faq-chat-input" class="faq-chat__input" data-chat-input rows="1" maxlength="1000" placeholder="Ваш вопрос"></textarea>
+        <button type="submit" class="faq-chat__send" data-chat-send>Отправить</button>
+      </form>
+      <div class="faq-chat__note">Отвечает нейросеть OpenAI, контакты из текста вырезаются.</div>
+    </div>
+    <button type="button" class="faq-chat__launcher" data-chat-open hidden aria-expanded="false" aria-label="Открыть чат с помощником">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    </button>
+  </div>
+  <script src="widget.js"></script>
+</body>
+</html>

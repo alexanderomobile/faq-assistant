@@ -1,0 +1,142 @@
+{
+ "d-01#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "d-01#2": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-01#3": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-02#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "d-02#2": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "d-02#3": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-03#1": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-03#2": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-03#3": {
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "d-04#1": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-04#2": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "d-04#3": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "d-05#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "d-05#2": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-05#3": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-06#1": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-06#2": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "d-06#3": {
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "d-07#1": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "d-07#2": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-08#1": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-08#2": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ },
+ "d-08#3": {
+  "X": "nomem",
+  "Y": "lesson",
+  "Z": "mine"
+ },
+ "d-09#1": {
+  "X": "mine",
+  "Y": "lesson",
+  "Z": "nomem"
+ },
+ "d-09#2": {
+  "X": "mine",
+  "Y": "nomem",
+  "Z": "lesson"
+ },
+ "d-10#1": {
+  "X": "lesson",
+  "Y": "nomem",
+  "Z": "mine"
+ },
+ "d-10#2": {
+  "X": "lesson",
+  "Y": "mine",
+  "Z": "nomem"
+ },
+ "d-10#3": {
+  "X": "nomem",
+  "Y": "mine",
+  "Z": "lesson"
+ }
+}

@@ -1,0 +1,40 @@
+/* Чат-виджет FAQ-ассистента. Цвета — переменные с запасными значениями: на сайте берутся его фирменные. */
+.faq-chat { --fc-ink: var(--ink, #0f1e33); --fc-sea: var(--sea, #0b7f73); --fc-sea-dark: var(--sea-dark, #086a60);
+  --fc-line: var(--line, #e4ddd1); --fc-muted: var(--muted, #5b6575);
+  position: fixed; right: 20px; bottom: 20px; z-index: 1050; font-size: 0.95rem; line-height: 1.45; }
+.faq-chat__launcher { width: 60px; height: 60px; border-radius: 50%; border: 0; cursor: pointer; display: grid; place-items: center;
+  background: var(--fc-sea); color: #fff; box-shadow: 0 12px 28px rgba(11, 127, 115, .4); transition: transform .18s ease, background-color .18s ease; }
+.faq-chat__launcher:hover { background: var(--fc-sea-dark); transform: translateY(-2px); }
+/* Рамка фокуса тёмная на светлом фоне и белая в тёмной шапке: контраст не ниже 3:1. */
+.faq-chat__launcher:focus-visible, .faq-chat button:focus-visible, .faq-chat textarea:focus-visible { outline: 3px solid var(--fc-ink); outline-offset: 2px; }
+.faq-chat__head button:focus-visible { outline-color: #fff; }
+.faq-chat__launcher svg { width: 28px; height: 28px; }
+.faq-chat.is-open .faq-chat__launcher, .faq-chat__launcher[hidden] { display: none; }
+.faq-chat__panel { width: min(380px, calc(100vw - 32px)); height: min(560px, calc(100vh - 110px)); background: #fff; border-radius: 18px;
+  box-shadow: 0 24px 60px rgba(15, 30, 51, .28); display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--fc-line); }
+.faq-chat__panel[hidden] { display: none; }
+.faq-chat__head { background: var(--fc-ink); color: #fff; padding: 12px 14px; display: flex; align-items: center; gap: 10px; }
+.faq-chat__title { font-weight: 700; line-height: 1.2; }
+.faq-chat__subtitle { font-size: 0.78rem; color: rgba(255, 255, 255, .72); }
+.faq-chat__head-actions { margin-left: auto; display: flex; gap: 6px; }
+.faq-chat__icon-btn { background: rgba(255, 255, 255, .1); color: #fff; border: 0; border-radius: 10px; padding: 6px 9px; cursor: pointer; font-size: 0.8rem; }
+.faq-chat__icon-btn:hover { background: rgba(255, 255, 255, .2); }
+.faq-chat__log { flex: 1; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 8px; background: #f8f6f2; }
+.faq-chat__msg { max-width: 86%; padding: 9px 12px; border-radius: 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.faq-chat__msg a { color: inherit; text-decoration: underline; }
+.faq-chat__msg--bot { align-self: flex-start; background: #fff; color: var(--fc-ink); border: 1px solid var(--fc-line); border-bottom-left-radius: 4px; }
+.faq-chat__msg--user { align-self: flex-end; background: var(--fc-sea); color: #fff; border-bottom-right-radius: 4px; }
+.faq-chat__typing { display: flex; gap: 4px; align-items: center; }
+.faq-chat__typing span { width: 7px; height: 7px; border-radius: 50%; background: var(--fc-muted); animation: faq-chat-blink 1s infinite ease-in-out; }
+.faq-chat__typing span:nth-child(2) { animation-delay: .15s; }
+.faq-chat__typing span:nth-child(3) { animation-delay: .3s; }
+@keyframes faq-chat-blink { 0%, 80%, 100% { opacity: .25; } 40% { opacity: 1; } }
+.faq-chat__form { display: flex; gap: 8px; padding: 10px; border-top: 1px solid var(--fc-line); background: #fff; }
+.faq-chat__input { flex: 1; resize: none; border: 1px solid var(--fc-line); border-radius: 12px; padding: 8px 10px; font: inherit; min-height: 40px; max-height: 120px; }
+.faq-chat__send { border: 0; border-radius: 12px; background: var(--fc-sea); color: #fff; font-weight: 600; padding: 0 14px; cursor: pointer; }
+.faq-chat__send:disabled { opacity: .5; cursor: default; }
+.faq-chat__note { font-size: 0.72rem; color: var(--fc-muted); padding: 0 12px 10px; background: #fff; }
+.faq-chat__note a { color: var(--fc-muted); }
+@media (max-width: 480px) { .faq-chat { right: 12px; bottom: 12px; } }
+@media (prefers-reduced-motion: reduce) { .faq-chat__launcher, .faq-chat__typing span { transition: none; animation: none; } }
+.faq-chat__sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
